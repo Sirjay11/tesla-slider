@@ -4,7 +4,7 @@ let init = () => {
     circles = document.getElementsByClassName("jumbo-slider__circle"),
     links = document.getElementsByClassName("jumbo-slider__link"),
     current = 1,
-    time = 6000;
+    time = 15000;
 
   //add animation class to slide container
   slides[0].classList.add("jumbo-slider__slide--active");
@@ -46,4 +46,4 @@ let init = () => {
   startSliding();
 };
 
-//init();
+init();
